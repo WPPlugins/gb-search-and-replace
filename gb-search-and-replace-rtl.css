@@ -1,0 +1,40 @@
+.gb_replace_field_con, .gb_with_field_con, .gb_in_field_con, .gb_btn_field_con, #gb_add_to_tag, .gb_replace_fields_con, #gb_ads{
+    margin: 10px;
+    vertical-align: top;
+}
+.fright{
+    float: left;
+}
+#gb_add_to_tag{
+    display: none;
+    right: 100%;
+}
+.gb_in_field{
+    padding: 20px;
+}
+.gb_btn_field_con{
+    margin-top: 35px;
+}
+.gb_error:before{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+#gb_add_to_tag.gb_hide > ul{
+    border-radius: 10px 0px 0px 10px;
+}
+#gb_add_to_tag.gb_hide > .gb_close_open{
+    left: auto;
+    right: 5px;
+    background-position: -64px 0px;
+}
+#gb_add_to_tag > .gb_close_open{
+    left: auto;
+    right: 95%;
+}
+
+@media only screen and (max-width : 900px) {
+    #gb_add_to_tag{
+        right: auto;
+    }
+}
